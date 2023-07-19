@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MiBilleteraWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:MiBilleteraWebApi.Controllers.BilleteraController.PostRetiro(Entities.Models.RetiroBillertera)">
+            <summary>
+            Registra un nuevo retiro en la base de datos.
+            </summary>
+            <param name="retiroBillertera">Operacion realizada</param>
+            <returns>Operacion Retiro</returns>
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.BilleteraController.PostIngresar(Entities.Models.RetiroBillertera)">
+            <summary>
+            Registra un nuevo ingreso en la base de datos.
+            </summary>
+            <param name="retiroBillertera">Operacion realizada</param>
+            <returns>Operacion Ingreso</returns>
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.BilleteraController.GetSaldo(System.Int32)">
+            <summary>
+            Recupera el saldo que posee el usuario registrado.
+            </summary>
+            <param name="id">Id del usuario</param>
+            <returns>Saldo Billetera</returns>
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.MonedasController.Get">
+            <summary>
+            Recupera el listado de las monedas registrados en la base de datos.
+            </summary>
+            <returns>Lista de Monedas.</returns>
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.MonedasController.Get(System.Int32)">
+            <summary>
+            Recupera la moneda con el ID pasado por parametro.
+            </summary>
+            <param name="id">ID de la moneda</param>
+            <returns>Moneda</returns>
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.MonedasController.Post(MiBilleteraWebApi.Models.Moneda)">
+            <summary>
+            Registra una nueva moneda en la base de datos.
+            </summary>
+            <param name="cliente">Moneda que se quiere registrar</param>
+            <returns>Moneda registrado</returns>
+            <response code="200">Registra la nueva moneda</response> /// <response code="400">La moneda ya ha sido registrado</response> 
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.MonedasController.Put(System.Int32,MiBilleteraWebApi.Models.Moneda)">
+            <summary>
+            Actualiza los datos de una moneda registrada.
+            </summary>
+            <param name="id">ID de la moneda</param>
+            <param name="cliente">Moneda cuyos atributos se actualizaran</param>
+            <returns>Moneda con datos modificados</returns>
+            <response code="200">Modifica los datos de la moneda</response> /// <response code="404">El id de la moneda no se encuentra registrado</response> 
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.MonedasController.Delete(System.Int32)">
+            <summary>
+            Elimina la moneda con el id pasado por parametro
+            </summary>
+            <param name="id">ID de la moneda</param>
+            <returns>Moneda eliminada</returns>
+            <response code="200">Confirma la eliminacion de la moneda</response> /// <response code="404">La moneda no se encuentra registrada</response>
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.OperacionesController.Get(System.Int32)">
+            <summary>
+            Recupera el listado de las operaciones registradas en la base de datos ordenadas en forma decreciente.
+            </summary>
+            <param name="id">Id del usuario</param>
+            <returns>Lista de Operaciones</returns>
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.UsuariosController.Get">
+            <summary>
+            Recupera el listado de los usuarios registrados.
+            </summary>
+            <returns>Lista de Usuarios.</returns>
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.UsuariosController.Get(System.String)">
+            <summary>
+            Recupera el usuario con el token pasado por parametro.
+            </summary>
+            <param name="token">Token del usuario</param>
+            <returns>Usuario</returns>
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.UsuariosController.PostIniciar(Entities.Models.Logeo)">
+            <summary>
+            Registra un nuevo usuario en la base de datos.
+            </summary>
+            <param name="usuario">Usuario que quiere iniciar sesion</param>
+            <returns>Usuario con sesion iniciada</returns>
+            <response code="200">Confirma la sesion del usuario</response> /// <response code="400">El usuario no se ha encontrado/El usuario esta desactivado</response> 
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.UsuariosController.Post(MiBilleteraWebApi.Models.Usuario)">
+            <summary>
+            Registra un nuevo usuario en la base de datos.
+            </summary>
+            <param name="usuario">Usuario que se quiere registrar</param>
+            <returns>Usuario registrado</returns>
+            <response code="200">Registra el nuevo usuario</response> /// <response code="400">El usuario ya ha sido registrado</response> 
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.UsuariosController.PostEstado(System.Int32)">
+            <summary>
+            Desactiva el usuario con el id pasado por parametro
+            </summary>
+            <param name="id">ID del usuario</param>
+            <returns>Usuario desactivado</returns>
+            <response code="200">Modifica el estado del usuario</response> /// <response code="404">El usuario no se encuentra</response>
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.UsuariosController.PostId(System.Int32,MiBilleteraWebApi.Models.Usuario)">
+            <summary>
+            Actualiza los datos de un usuario registrado
+            </summary>
+            <param name="id">ID del usuario</param>
+            <param name="cliente">Usuario cuyos atributos se actualizaran</param>
+            <returns>Usuario con datos modificados</returns>
+            <response code="200">Modifica los datos del usuario</response> /// <response code="400">El id del usuario no coincide</response> 
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.UsuariosController.Encriptado(System.String,System.Byte[])">
+            <summary>
+            Encripta el objeto usuario que fue registrado
+            </summary>
+            <param name="payload"></param>
+            <param name="secretKey"></param>
+            <returns>Codigo de encriptacion</returns>
+        </member>
+        <member name="M:MiBilleteraWebApi.Controllers.UsuariosController.DesEncriptado(System.String,System.Byte[])">
+            <summary>
+            Desencripta el objeto usuario que fue registrado
+            </summary>
+            <param name="encriptar"></param>
+            <param name="secretKey"></param>
+            <returns>Objeto Usuario desencriptado</returns>
+        </member>
+        <member name="T:MiBilleteraWebApi.Controllers.UsuariosController.TokenJson">
+            <summary>
+            Token utilizado para Iniciar Sesion
+            </summary>
+        </member>
+    </members>
+</doc>

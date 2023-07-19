@@ -1,0 +1,86 @@
+<div class="row">
+    <div style="padding: 5px">
+        <div class="card border-success mb-3 container-fluid" style="background-color: rgb(20, 40, 80)">
+            <div class="card-header bg-transparent border-success text-white row">
+                <div class="col-3">
+                    <a class="navbar-brand me-2">
+                        <img src="https://iconarchive.com/download/i102645/graphicloads/flat-finance/person.ico"
+                            height="150" alt="MDB Logo" loading="lazy" style="margin-top: 5px" /> </a>
+                </div>
+                <div class="col-9" *ngIf="usuarioActual !=null ">
+                    <h3>Nombre: {{ usuarioActual.nombre }}</h3>
+                    <h3>Apellido: {{ usuarioActual.apellido }}</h3>
+                    <h3>DNI: {{ usuarioActual.dni }}</h3>
+                </div>
+            </div>
+            <div class="card-body text-white row" *ngIf="usuarioActual != null ">
+                <h3 class="card-title col-12">Informacion de la cuenta:</h3>
+                <h4 class="card-text col-3">E-mail: {{ usuarioActual.email }}</h4>
+                <h4 class="card-text col-4">Fecha Alta: {{ usuarioActual.fechaAlta | date: "d/M/yy hh:mm a" }}</h4>
+                <h4 class="text-center col-2">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Editar Usuario
+                    </button>
+                </h4>
+                <h4 class="text-center col-2">
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#desactivar">
+                        Desactivar Usuario
+                    </button>
+                </h4>
+            </div>
+            <div class="card-footer bg-transparent border-success"></div>
+        </div>
+    </div>
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <form [formGroup]="form" (ngSubmit)="modificar()" *ngIf="usuarioActual != null">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="input-group mb-3">
+                              <span class="input-group-text" id="basic-addon1">Nombre</span>
+                              <input type="text" [(ngModel)]="usuarioActual.nombre" class="form-control" aria-label="Nombre"
+                                  aria-describedby="basic-addon1" formControlName="nombre">
+                          </div>
+                          <div class="input-group mb-3">
+                              <span class="input-group-text" id="basic-addon1">Apellido</span>
+                              <input type="text" [(ngModel)]="usuarioActual.apellido" class="form-control" aria-label="Apellido"
+                                  aria-describedby="basic-addon1" formControlName="apellido">
+                          </div>
+                          <div class="input-group mb-3">
+                              <span class="input-group-text" id="basic-addon1">Contraseña</span>
+                              <input type="text" [(ngModel)]="usuarioActual.password" class="form-control" aria-label="Contraseña"
+                                  aria-describedby="basic-addon1" formControlName="contrasena">
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                          <button type="button" class="btn btn-success" data-bs-dismiss="modal" (click)="modificar()">Guardar Cambios</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </form>
+
+    <div class="modal fade" id="desactivar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">¿Seguro que quieres desactivar tu usuario?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                    <button type="button" class="btn btn-danger"  (click)="desactivar()" data-bs-dismiss="modal">Desactivar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

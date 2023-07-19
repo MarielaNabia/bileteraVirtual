@@ -1,0 +1,84 @@
+<div *ngIf="token === null">
+  <app-login></app-login>
+</div>
+<div *ngIf="token !== null">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-lg-8 col-12 depositoRetiro" style="padding: 5px">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div
+            class="accordion-item border-success"
+            style="background-color: rgb(20, 40, 80)"
+          >
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button
+                class="accordion-button collapsed text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseOne"
+                style="background-color: rgb(20, 40, 80)"
+              >
+                <i class="fa fa-solid fa-arrow-right fa"></i>
+                &nbsp;Depositar
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingOne"
+            >
+              <div class="accordion-body">
+                <app-deposito></app-deposito>
+              </div>
+            </div>
+          </div>
+          <div
+            class="accordion-item border-success"
+            style="background-color: rgb(20, 40, 80)"
+          >
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button
+                class="accordion-button collapsed text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+                style="background-color: rgb(20, 40, 80)"
+              >
+                <i class="fa fa-solid fa-arrow-left"></i> &nbsp; Retirar
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo"
+            >
+              <div class="accordion-body">
+                <app-retiro></app-retiro>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 miBilletera">
+        <app-mibilletera></app-mibilletera>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-lg-8 col-12 text-white ultimoMovimiento">
+        <app-movimientos></app-movimientos>
+      </div>
+      <div class="col-lg-4 col-12 cotizacion">
+        <app-cotizacion></app-cotizacion>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>

@@ -1,0 +1,43 @@
+<h4 class="text-center mt-3 text-white">
+  <a class="navbar-brand me-2">
+    <img
+      src="https://media4.giphy.com/media/Gyi0L1vhqrYCMHCwCd/giphy.gif?cid=ecf05e477kupf8jqh1c08fdubhggcbsvsdsteck916a828xa&rid=giphy.gif&ct=s"
+      height="50"
+      alt="MDB Logo"
+      loading="lazy"
+      style="margin-top: -1px"
+    />
+  </a>
+  Ingrese el monto a depositar en su cuenta
+</h4>
+<div class="grid">
+  <div class="row">
+    <div class="col-12 col-lg-9">
+      <div class="input-group mb-3">
+        <span class="input-group-text">AR$</span>
+        <input
+          type="number"
+          [(ngModel)]="monto"
+          class="form-control"
+          aria-label="Amount (to the nearest dollar)"
+          min="0"
+        />
+      </div>
+    </div>
+    <div class="col-12 col-lg-3 buttonDiv">
+      <button
+        type="button"
+        (click)="deposito()"
+        class="btn btn-primary"
+        [disabled]="!deshabilitado()"
+      >
+        Depositar
+      </button>
+    </div>
+  </div>
+<div *ngIf="response === true && isLoading === false" class="alert alert-success" role="alert">
+  Deposito realizado con exito
+</div>
+<div *ngIf="response === false && isLoading === false" class="alert alert-danger" role="alert">
+  ERROR ❌ Intente más tarde
+

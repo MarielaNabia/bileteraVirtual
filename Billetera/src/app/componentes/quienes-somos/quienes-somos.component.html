@@ -1,0 +1,76 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col-12" *ngFor="let dev of developers">
+    <div
+      class="card"
+      style="background-color: rgb(15, 23, 39); margin-top: 10px; "
+    >
+      <br />
+      <img
+        src="{{ dev.imagen }}"
+        class="card-img-top"
+        alt="Hollywood Sign on The Hill"
+        style="border-radius: 50%; margin: auto; width: 70%; height: 70%"
+      />
+      <div class="card-body">
+        <h5
+          class="card-title text-center"
+          style="color: white; margin-bottom: 30px"
+        >
+          {{ dev.nombre }}
+        </h5>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <a class="btn btn-primary" href="{{ dev.instagram }}">
+                <img
+                  src="https://media2.giphy.com/media/eTtXHP8CyQHHa4M8EM/giphy.gif?cid=ecf05e47rut1w1ugg9kpuw1ear84nzqow0pmbw1k2bvcvyoq&rid=giphy.gif&ct=s"
+                  height="40"
+                  alt="MDB Logo"
+                  loading="lazy"
+                  style="margin-top: -1px"
+                />
+              </a>
+            </div>
+            <div class="col">
+              <a class="btn btn-primary" href="{{ dev.linkedin }}">
+                <img
+                  src="https://media0.giphy.com/media/HQTYdpx1yhxWpugAi2/giphy.gif?cid=ecf05e47321tkrpisnrizi5zxupn3xxqo1yekb3h5na2ijun&rid=giphy.gif&ct=s"
+                  height="40"
+                  alt="MDB Logo"
+                  loading="lazy"
+                  style="margin-top: -1px"
+              /></a>
+            </div>
+            <div class="col">
+              <a class="btn btn-primary" href="{{ dev.github }}">
+                <img
+                  src="https://media2.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif?cid=ecf05e47n7q74lveowprvhlnyi9xx7mx561beqiqyz9r1257&rid=giphy.gif&ct=s"
+                  height="40"
+                  alt="MDB Logo"
+                  loading="lazy"
+                  style="margin-top: -1px"
+              /></a>
+            </div>
+          </div>
+          <div class="d-grid gap-2" style="margin-top: 30px">
+            <button type="button" class="btn btn-primary">
+              Contactar
+
+                <img
+                  src="https://media0.giphy.com/media/KxlbRn0HuTW7gZID83/giphy.gif?cid=ecf05e47z4mt2kkwqj7m6ezm0e542a0w6rfnrm6sgvrs81l8&rid=giphy.gif&ct=s"
+                  height="30"
+                  alt="MDB Logo"
+                  loading="lazy"
+                  style="margin-top: -1px"
+                />
+              
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>

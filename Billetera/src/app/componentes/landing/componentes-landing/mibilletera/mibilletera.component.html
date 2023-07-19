@@ -1,0 +1,27 @@
+<div class="row">
+  <div style="padding: 5px" class="billetera">
+    <div class="card border-success mb-3" style="background-color: rgb(20, 40, 80)">
+      <div class="card-header bg-transparent border-success text-white">
+        <div style="float: left;">
+          <a class="navbar-brand me-2">
+            <img
+              src="https://media4.giphy.com/media/3c887CZDf1OlQW1tuk/giphy.gif?cid=ecf05e47elmcoph2wwrjadu2c66vmlb2i4fsktvrcyhgbfv7&rid=giphy.gif&ct=s"
+              height="30" alt="MDB Logo" loading="lazy" style="margin-top: -1px" /> </a>Mi Billetera
+        </div>
+        <div style="float: right;">
+          <a class="navbar-brand me-2">
+            <img src="https://iconarchive.com/download/i102645/graphicloads/flat-finance/person.ico" height="30"
+              alt="MDB Logo" loading="lazy" style="margin-top: -1px" /> </a>{{userActual && userActual.nombre}}
+        </div>
+      </div>
+      <div class="card-body text-white row">
+        <h5 class="card-title col-12">Fondos de mi billetera</h5>
+        <h4 class="card-text col-3">Pesos:</h4>
+        <h4 class="text-center col-5">
+          {{ montoFinal && montoFinal | currency }}
+        </h4>
+      </div>
+      <div class="card-footer bg-transparent border-success"></div>
+    </div>
+  </div>
+</div>

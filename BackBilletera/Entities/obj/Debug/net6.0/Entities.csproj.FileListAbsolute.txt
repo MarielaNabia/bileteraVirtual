@@ -1,0 +1,65 @@
+C:\Users\Jacob\Desktop\MiBilletera\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Jacob\Desktop\MiBilletera\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacob\Desktop\MiBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Jacob\Desktop\MiBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\Users\Jacob\Desktop\MiBilletera\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.dll
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.pdb
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.dll
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.pdb
+C:\Users\tiago\OneDrive\Escritorio\Nueva carpeta\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.dll
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.pdb
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.dll
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.pdb
+C:\Users\tiago\OneDrive\Escritorio\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.dll
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.pdb
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.dll
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.pdb
+C:\Users\mate_\Desktop\proyects\Pil\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\ref\Entities.dll
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.deps.json
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.dll
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\bin\Debug\net6.0\Entities.pdb
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.dll
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\refint\Entities.dll
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\Entities.pdb
+D:\Fonti\CURSOS Y PASANTIAS\PIL (Kinetic)\Proyecto\fsnet5-team5\BackBilletera\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\bin\Debug\net6.0\Entities.dll
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\bin\Debug\net6.0\Entities.pdb
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\obj\Debug\net6.0\Entities.dll
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\obj\Debug\net6.0\Entities.pdb
+C:\Users\marie\Desktop\fsnet5-team5-main\BackBilletera\Entities\obj\Debug\net6.0\ref\Entities.dll

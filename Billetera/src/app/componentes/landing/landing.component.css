@@ -1,0 +1,16 @@
+@media(max-width: 992px){
+    .depositoRetiro{
+        width: 75%;
+        margin: 0 12.5%;
+    }
+    .miBilletera{
+        width: 75%;
+        margin: 0 12.5%;
+    }
+
+    .ultimoMovimiento{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+}

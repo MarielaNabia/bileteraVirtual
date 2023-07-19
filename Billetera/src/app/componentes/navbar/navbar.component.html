@@ -1,0 +1,69 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample"
+      aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
+      <button type="button" class="btn btn-primary me-3" style="background-color: rgb(15, 23, 39)"
+        (click)="cerrarSesion()" *ngIf="usuario !== null">
+        Cerrar Sesion
+      </button>
+    </button>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item" *ngIf="usuario !== null">
+          <a class="nav-link" style="color: white">
+            <a class="navbar-brand me-2">
+              <img
+                src="https://media1.giphy.com/media/PyXzWtAcWKGyiwelJP/giphy.gif?cid=ecf05e47egcng6jo47u2r3j6ubhf01a79agh9ddbfklo9zyt&rid=giphy.gif&ct=s"
+                height="40" alt="MDB Logo" loading="lazy" style="margin-top: -1px" /> </a>CryptoPil</a>
+        </li>
+        <li class="nav-item" routerLink="/" *ngIf="usuario === null" style="cursor: pointer;">
+          <a class="nav-link" style="color: white">
+            <a class="navbar-brand me-2">
+              <img
+                src="https://media1.giphy.com/media/PyXzWtAcWKGyiwelJP/giphy.gif?cid=ecf05e47egcng6jo47u2r3j6ubhf01a79agh9ddbfklo9zyt&rid=giphy.gif&ct=s"
+                height="40" alt="MDB Logo" loading="lazy" style="margin-top: -1px" /> </a>CryptoPil</a>
+        </li>
+      </ul>
+      <div class="d-flex align-items-center">
+        <button type="button" class="btn btn-primary me-3" style="background-color: rgb(15, 23, 39)"
+          *ngIf="usuario !== null" routerLink="/configuracion">
+          <i class="fa fa-gears"></i>
+        </button>
+        <button type="button" class="btn btn-primary me-3" style="background-color: rgb(15, 23, 39)"
+          (click)="cerrarSesion()" *ngIf="usuario !== null">
+          Cerrar Sesion
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(15, 23, 39)" *ngIf="usuario !== null">
+  <div class="container-fluid justify-content-between">
+    <div class="d-flex"></div>
+    <ul class="navbar-nav flex-row d-md-flex">
+      <li class="nav-item me-3 me-lg-1">
+        <a class="nav-link">
+          <a class="nav-link active" aria-current="page" routerLink="/home" style="color: white"><i
+              class="fa fa-home fa-2x"></i> Inicio</a>
+        </a>
+      </li>
+
+      <li class="nav-item me-3 me-lg-1">
+        <a class="nav-link">
+          <a class="nav-link active" routerLink="/acerca-de" style="color: white"><i class="fa fa-info fa-2x"></i>
+            Acerca de PIL</a>
+        </a>
+      </li>
+
+      <li class="nav-item me-3 me-lg-1">
+        <a class="nav-link">
+          <a class="nav-link active" routerLink="/quienes-somos" style="color: white"><i
+              class="fa fa-question fa-2x"></i> Quienes Somos</a>
+        </a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav flex-row"></ul>
+  </div>
+</nav>

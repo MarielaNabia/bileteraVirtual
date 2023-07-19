@@ -1,0 +1,66 @@
+<section>
+  <div class="card border-success" style="background-color: rgb(20, 40, 80)">
+    <div class="card-header border-success">
+      <a class="navbar-brand me-2">
+        <img
+          src="https://media0.giphy.com/media/HGiSbGWvU3xrl4kT5F/giphy.gif?cid=ecf05e47elmcoph2wwrjadu2c66vmlb2i4fsktvrcyhgbfv7&rid=giphy.gif&ct=s"
+          height="30" alt="MDB Logo" loading="lazy" style="margin-top: -1px" />
+      </a>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title text-center text-white" style="padding-bottom: 1rem">
+        Todos mis movimientos
+        <a class="navbar-brand me-2">
+          <img
+            src="https://media0.giphy.com/media/EIL7Nx1qIgig7pU64L/giphy.gif?cid=ecf05e47w6h6tc8bafj264kj2uqopjqqylgnu7h6cfisehez&rid=giphy.gif&ct=s"
+            height="30" alt="MDB Logo" loading="lazy" style="margin-top: -1px" />
+        </a>
+      </h5>
+      <p class="card-text"></p>
+      <table class="table border-success text-white">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Fecha</th>
+            <td scope="col">Hora</td>
+            <th scope="col">Moneda</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Monto</th>
+            <th scope="col">
+              <a class="navbar-brand me-2">
+                <img
+                  src="https://media0.giphy.com/media/FDP1ogDoIW2yX1iNQf/giphy.gif?cid=ecf05e474pmuxrrhavonexluihda5p7hk24a374h7w0qmnv8&rid=giphy.gif&ct=s"
+                  height="30" alt="MDB Logo" loading="lazy" style="margin-top: -1px" />
+              </a>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let movimiento of movimientos && movimientos">
+            <th scope="row"></th>
+            <td>{{ movimiento.fechaOperacion | date: "d/M/yy" }}</td>
+            <td>{{ movimiento.fechaOperacion | date: "hh:mm a"}}</td>
+            <td>{{ movimiento.idMoneda === 1? "Pesos":null}}</td>
+            <td>{{ movimiento.idTipoOperacion === 5? "Ingreso":"Retiro"}}</td>
+            <td>{{ movimiento.monto }}</td>
+            <td *ngIf="movimiento.idTipoOperacion === 5">
+              <a class="navbar-brand me-2">
+                <img
+                  src="https://media3.giphy.com/media/ihGp1Y4YNLNOgHnG8c/giphy.gif?cid=ecf05e47upg82bwh2boyu4if12d1iu9b4lz9hpzevdafey9o&rid=giphy.gif&ct=s"
+                  height="40" alt="MDB Logo" loading="lazy" style="margin-top: -1px" />
+              </a>
+            </td>
+            <td *ngIf="movimiento.idTipoOperacion === 3">
+              <a class="navbar-brand me-2">
+                <img
+                  src="https://media3.giphy.com/media/zWWaTlBEHGG4ySz1kZ/giphy.gif?cid=ecf05e47pskunu9ieb6vvq40aq46iu8s6q9lw6bqm20dvdni&rid=giphy.gif&ct=s"
+                  height="40" alt="MDB Logo" loading="lazy" style="margin-top: -1px" />
+              </a>
+            </td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
